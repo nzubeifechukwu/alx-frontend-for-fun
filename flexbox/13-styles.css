@@ -750,3 +750,23 @@ ul.row {
   border: none;
   margin-bottom: 3rem;
 }
+
+/* Tag list
+    ============================= */
+
+.tag-list {
+  padding: 0;
+  list-style: none;
+}
+
+.tag-list li {
+  display: inline;
+}
+
+.tag-list li::after {
+  content: ", ";
+}
+
+.tag-list li:last-child::after {
+  content: "";
+}
