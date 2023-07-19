@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  border: 1rem solid gray;
+  justify-content: center;
+  color: white;
+  align-items: baseline;
+  height: 250px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.box1 {
+  background-color: aqua;
+  flex-grow: 1;
+  font-size: 1rem;
+}
+
+.box2 {
+  background-color: blue;
+  flex-grow: 2;
+  font-size: 2rem;
+}
+
+.box3 {
+  background-color: darkcyan;
+  font-size: 3rem;
+  flex-grow: 3;
+}
+
+.box4 {
+  background-color: blueviolet;
+  flex-grow: 2;
+  font-size: 2rem;
+}
+
+.box5 {
+  background-color: orangered;
+  flex-grow: 1;
+  font-size: 1rem;
+}
