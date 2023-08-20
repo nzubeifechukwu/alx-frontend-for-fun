@@ -1,0 +1,13 @@
+/* Margin mixin */
+@mixin marginRL($property) {
+  margin-left: $property;
+  margin-right: $property;
+}
+
+body {
+  @include marginRL(10px);
+}
+
+div {
+  @include marginRL(15px);
+}
