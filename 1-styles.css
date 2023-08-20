@@ -1,0 +1,11 @@
+a {
+  /* font-size: 2rem; */
+  text-decoration: none;
+  text-decoration-color: transparent;
+  transition: 1s ease-in;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: inherit;
+}

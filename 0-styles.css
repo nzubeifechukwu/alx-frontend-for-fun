@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 40px;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  width: 100%;
+}
+
+li {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  place-items: center;
+  height: 550px;
+  background-color: gainsboro;
+  padding: 0 50px;
+  border: 2px solid gray;
+  border-radius: 15px;
+}
+
+.icon {
+  height: 100%;
+  width: 220px;
+}
+
+.i-html {
+  background: url(sprite.png) no-repeat -30px -40px;
+}
+
+.i-css {
+  background: url(sprite.png) no-repeat -320px -40px;
+}
+
+.i-js {
+  background: url(sprite.png) no-repeat -610px -40px;
+}
